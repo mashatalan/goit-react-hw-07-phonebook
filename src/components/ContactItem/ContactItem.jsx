@@ -8,10 +8,10 @@ import {
   ContactName,
   ContactInfo,
 } from 'components/ContactItem/ContactItem.styled';
-import { Controls, ControlsSave } from 'components/Controls/Controls';
+import { Controls, ControlsSave } from '../Controls/Controls';
 import EditForm from 'components/EditForm';
 import { useDispatch } from 'react-redux';
-import { deleteContact, editContact } from 'redux/contactsSlice';
+import { deleteContact, editContact } from '../../redux/operations';
 
 function ContactItem({ name, number, id }) {
   const [editName, setEditName] = useState(name);

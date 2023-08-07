@@ -38,7 +38,7 @@ export const EditForm = ({ name, number, onEditContact, children }) => {
       <EditFormStyled autoComplete='off'>
         <EditFormWrapper>
           <EditFormLabel>
-            <HiUser fill='red' />
+            <HiUser fill='plum' />
             <EditInput
               type='text'
               name='name'
